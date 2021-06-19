@@ -1,0 +1,18 @@
+{
+  "name": "yivi_crawler",
+  "version": "1.0.0",
+  "description": "a wallhaven scrapy based on puppeteer and node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "yivi",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "puppeteer": "^10.0.0"
+  }
+}
